@@ -6,39 +6,19 @@ body{
     align-items: center;
 }
 
-#box{
-    background: tomato;
-    border-radius: 1px solid black;
-}
-
 .container{
     margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
-    width: 34%;
+    width: 50%;
+    max-height: 50%;
 }
 
 .grid-item {
-    border: 1px solid black;
     text-align: center;
     background-color:darkslategray;
-    width: 10px;
-    padding: 10px;
-    height: 10px;
-}
-
-.grid-color{
-    width: 10px;
-    padding: 1em;
-    border: 1px solid black;
-    text-align: center;
-    background-color: purple;
-}
-
-#myID {
-    height: 400px;
-    width: 500px;
-    background-color: red;
+    width: 10%;
+    height: 50px;
 }
 
 #btn{
