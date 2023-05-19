@@ -1,7 +1,9 @@
 body{
-    background-color:wheat;
+    background-color: #1e1e1e;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 #box{
@@ -12,18 +14,17 @@ body{
 .container{
     margin-top: 50px;
     display: flex;
-    overflow: none;
     flex-wrap: wrap;
-    width: 750px;
-    gap: 1px;
+    width: 34%;
 }
 
 .grid-item {
-    width: 10px;
-    padding: 1em;
     border: 1px solid black;
     text-align: center;
     background-color:darkslategray;
+    width: 10px;
+    padding: 10px;
+    height: 10px;
 }
 
 .grid-color{
@@ -38,4 +39,8 @@ body{
     height: 400px;
     width: 500px;
     background-color: red;
-  }
+}
+
+#btn{
+    width: 100px;
+}
